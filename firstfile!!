@@ -1,11 +1,1 @@
-print("hello this is my factorial calculator!")
-import sys
 
-num = int(input("Enter an integer below 100000000: \n " ))
-
-sys.set_int_max_str_digits(100000000)
-
-
-import math
-
-print(math.factorial(num))
